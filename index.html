@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>-KD-</title>
+
+<link rel="stylesheet" type="text/css" href="portfolio.css">
+
+<!--Meta tag for Mobile View-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Latest minified Boostrap CSS -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+
+<!-- Latest compiled and minified Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- jQuery Script for Smooth Scrolling to Anchor Links-->
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End of if statement
+  });
+});
+</script>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+
+<!-- Font Awesome -->
+<script src="https://use.fontawesome.com/d8d60a6e20.js"></script>
+
+<!-- **********************Nav Bar********************** -->
+
+<nav class="navbar navbar-default navbar-fixed-top" style="opacity: 0.9;font-family: 'Playfair Display SC', serif">
+<div class="container" style="padding-bottom: -5px;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#home">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://twitter.com/kaydyshay" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/AkemiKiku" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.freecodecamp.org/akemikiku" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+ </div><!-- /.container -->
+</nav>
+</head>
+
+
+<!-- *******Body Begins******** -->
+
+<body class="page-width container-fluid">
+<div class="row">
+
+<!-- Above the Fold / Home Page-->
+<div class="parallax">
+	<div class="homepage" id="home">
+		<img class="photo" src="http://i.imgur.com/pfbplj8m.jpg" alt="a picture of me at the park">
+		<h1>Kanesha Dyshay</h1>
+		<h4>Web Developer. User Interface Designer.</h4>
+	</div>
+</div>
+
+<!-- Highlight Banner -->
+<div class="features" style="height:140px;background-color: #ffffff; opacity: 0.8">
+	<h3>Brand. SEO. Web Design & Development.</h3> 
+</div>
+
+<!-- Portfolio Section -->
+  <div class="parallaxtwo">
+    <div class="portfoliosub" id="portfolio"> <!--beginning of portfolio section-->
+        <div class="line"></div>
+          <h4>My Portfolio</h4>
+        <div class="line"></div>
+    </div> <!--end of portfolio subtitle section-->
+    <div class="container-fluid" style="padding-bottom: 100px">
+      <div class="row">
+      <div class="col-md-4 col-xs-8"><img src="http://i.imgur.com/j3MYZAem.png" class="pictures img-responsive"><p style="text-align: left; color: #F06292">A logo I created for a class project.</p></div>
+      <div class="col-md-4 col-xs-8" style="text-align: left; color: #F06292; padding-left: 25px"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/225078469" width="100%" height="360" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p><a href="https://vimeo.com/225078469">DivrgntDzyn</a> from <a href="https://vimeo.com/user68673799">Kanesha Patterson</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+      <div class="col-md-4 col-xs-8"><img src="http://i.imgur.com/rOpCZAUm.png" class="pictures img-responsive"><p style="text-align: left; color: #F06292">A placeholder photo.</p></div>
+    </div><!--end of row-->
+    </div>
+  </div><!--end of parallax effect-->
+
+<!-- Highlight Banner -->
+  <div class="features" style="height:140px;background-color: #ffffff; opacity: 0.8">
+    <h3>About Me.</h3> 
+  </div>
+
+
+<!-- About Section -->
+<div class="parallaxthree">
+<div class="container-fluid">
+  <div class="row">
+  <div class="about" id="about"> <!--beginning of about section-->
+    <div class="absection text-center">
+      <h3>Hello!</h3><div class="line"></div>
+      <div class="aboutme" style="clear: both">
+        <p><b>Thank you for visiting my page. I treasure Marketing, Interactive Web Design, and Web Development. Sites like <a href="https://www.awwwards.com/">Awwwards.com</a> and <a href="https://www.cssawards.net/">CSSAwards.net</a> save me from losing sight of my goals. I've practiced the languages C, C#, and Java in college projects. My BS is in Marketing Communications and I minor in Computer Science. HTML, CSS, & JavaScript are the languages I intend to marry. Feel free to email me if you have any inquiries, want to give kudos, or work with me. 
+        </b></p>
+      </div> <!--end of about me-->
+    </div><!--end of absection-->
+  </div> <!--end of about section--> 
+  </div>
+  </div>
+</div><!--end of parallax effect-->
+
+<!--Highlight Banner-->
+<div class="features" style="height:140px;background-color: #ffffff; opacity: 0.8">
+  <h3>Let's Build Together.</h3>
+</div>
+
+<div class="parallaxfour">
+  <div class="contact" id="contact"> <!--beginning of contact section-->
+    <div class="form-style-5">
+      <form action="mailto:patterson.kanesha@gmail.com" method="post" enctype="multipart/form-data">
+        <fieldset>
+          <legend><span class="number"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>Contact Info</legend>
+          <input type="text" name="field1" placeholder="Your Name *">
+          <input type="email" name="field2" placeholder="Your Email *">
+          <textarea name="field3" placeholder="Message *"></textarea>
+          <legend><span class="number"><i class="fa fa-briefcase" aria-hidden="true"></i></span>Interests</legend>
+          <select id="job" name="field4">
+          <optgroup label="Business_Inquiries">
+            <option value="Brand/SEO_Marketing">Brand/SEO Marketing</option>
+            <option value="Web Design">Web Design</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Web Development">Consultation</option>
+          </optgroup>
+          <optgroup label="Subscribe">
+            <option value="subscribe">Subscribe to Blog</option>
+          </optgroup>
+          </select>      
+        </fieldset>
+        <input type="submit" value="Apply" />
+      </form>
+    </div> <!--end form style-->
+  </div> <!--end of contact section-->
+</div><!--end of parallax-->
+</div><!--end of row-->
+
+    <!-- Ajax & JS Script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
