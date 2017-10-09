@@ -1,0 +1,46 @@
+{
+  "name": "kaneshapatterson",
+  "version": "1.0.0",
+  "description": "\"A React Starter Kit to use as a starting point for working on simple ReactJS app\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "\"echo \\ Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KayDyshay/image-slideshow-react.git"
+  },
+  "keywords": [
+    "\"ReactJS\""
+  ],
+  "author": "Kanesha Patterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KayDyshay/image-slideshow-react/issues"
+  },
+  "homepage": "https://github.com/KayDyshay/image-slideshow-react#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "postcss": "^6.0.11",
+    "postcss-loader": "^2.0.6",
+    "precss": "^2.0.0",
+    "react-hot-loader": "^1.3.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "normalize.css": "^7.0.0",
+    "particles.js": "^2.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack-dev-middleware": "^1.12.0"
+  }
+}
